@@ -1,0 +1,19 @@
+{
+  "name": "hello_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "",
+    "typescript": "",
+    "redux": ""
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
