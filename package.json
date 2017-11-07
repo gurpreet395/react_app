@@ -11,7 +11,9 @@
   "dependencies": {
     "react": "",
     "typescript": "",
-    "redux": ""
+    "redux": "",
+    "react-router": "",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "webpack": "^3.8.1"

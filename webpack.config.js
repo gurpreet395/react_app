@@ -14,6 +14,11 @@ var config = {
     module: {
         loaders: [
             {
+                test: /\.(jpe?g|png|gif|svg|woff|woff2|eot|ttf)$/i,  // a regular expression that catches .js files
+                exclude: /node_modules/,
+                loader: 'url-loader',
+            },
+            {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
